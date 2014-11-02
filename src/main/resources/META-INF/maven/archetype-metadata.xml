@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor name="basic">
+  <fileSets>
+    <fileSet>
+      <directory>src/main/java</directory>
+      <includes>
+        <include>**/*.java</include>
+      </includes>
+    </fileSet>
+    <fileSet>
+      <directory>src/test/java</directory>
+      <includes>
+        <include>**/*.java</include>
+      </includes>
+    </fileSet>
+    <fileSet>
+      <directory>src/test/resources</directory>
+      <includes>
+        <include>**/*.dat</include>
+      </includes>
+    </fileSet>
+  </fileSets>
+</archetype-descriptor>
