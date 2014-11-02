@@ -9,12 +9,18 @@
   <name>HackerRank Archetype Quickstart</name>
   <description>A archetype for challenge projects inspired by HackerRank</description>
   <url>https://www.hackerrank.com</url>
-  <developers>andersonlf@gmail.com</developers>
-  
+  <developers>
+    <developer>
+      <name>Anderson Lobo Feitosa</name>
+      <email>andersonlf@gmail.com</email>
+      <url>http://about.me/andersonlfeitosa</url>
+    </developer>
+  </developers>
+
   <scm>
     <connection>scm:git:https://github.com/andersonlf/hackerrank-quickstart-archetype.git</connection>
     <developerConnection>scm:git:https://github.com/andersonlf/hackerrank-quickstart-archetype.git</developerConnection>
     <url>https://github.com/andersonlf/hackerrank-quickstart-archetype.git</url>
   </scm>
-  
+
 </project>
