@@ -30,6 +30,7 @@ To generate project for a challenge programming execute following command:
         -DarchetypeGroupId=hackerrank \
         -DarchetypeArtifactId=quickstart \
         -DarchetypeVersion=1.0.0-SNAPSHOT \
+        -DarchetypeRepository=nexus
         -DgroupId=my.groupid \
         -DartifactId=my-artifactId \
         -Dversion=version
