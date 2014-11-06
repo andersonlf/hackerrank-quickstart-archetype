@@ -15,16 +15,16 @@ import org.junit.Test;
 public class SolutionTest {
 
 	private final OutputStream out = new ByteArrayOutputStream();
-	
-	@Before
-    public void setUpStreams() {
-        System.setOut(new PrintStream(out));
-    }
 
-    @After
-    public void cleanUpStreams() {
-        System.setOut(null);
-    }
+	@Before
+	public void setUpStreams() {
+		System.setOut(new PrintStream(out));
+	}
+
+	@After
+	public void cleanUpStreams() {
+		System.setOut(null);
+	}
 
 	@Test
 	public void test1() throws Exception {
