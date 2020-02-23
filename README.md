@@ -26,11 +26,11 @@ To generate project for a challenge programming execute following command:
 
 ```bash
     mvn archetype:generate \
-        -DinteractiveMode=false
+        -DinteractiveMode=false \
         -DarchetypeGroupId=hackerrank \
         -DarchetypeArtifactId=quickstart \
         -DarchetypeVersion=1.0.0-SNAPSHOT \
-        -DarchetypeRepository=nexus
+        -DarchetypeRepository=nexus \
         -DgroupId=my.groupid \
         -DartifactId=my-artifactId \
         -Dversion=version
