@@ -14,7 +14,7 @@ Installation
 To install the archetype in your local repository execute following commands:
 
 ```bash
-    git clone https://github.com/andersonlf/hackerrank-quickstart-archetype.git
+    git clone https://github.com/andersonlfeitosa/hackerrank-quickstart-archetype.git
     cd hackerrank-quickstart-archetype
     mvn clean install
 ```
